@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Simonetta&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Simonetta:ital@1&display=swap");
+body {
+  max-width: 1600px;
+  text-align: center;
+  margin: 0;
+}
+
+.title {
+  font-family: Simonetta;
+  font-style: italic;
+  font-size: 3vh;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.foto {
+  -ms-flex-preferred-size: 15%;
+      flex-basis: 15%;
+  border: 0px solid black;
+  margin: 0.5%;
+}
+
+@media screen and (max-width: 1200px) {
+  .foto {
+    -ms-flex-preferred-size: 20%;
+        flex-basis: 20%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .foto {
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .foto {
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .foto {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .foto {
+    -ms-flex-preferred-size: 90%;
+        flex-basis: 90%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
